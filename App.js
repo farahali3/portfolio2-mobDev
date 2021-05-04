@@ -40,7 +40,7 @@ const PersonalScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.textStyle}>Personal tasks</Text>
+      <Text style={styles.textStyle}>Personal Tasks</Text>
     
     <View style={styles.items}>
       {
@@ -82,7 +82,7 @@ const WorkScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-    <Text style={styles.textStyle}> Work tasks </Text>
+    <Text style={styles.textStyle}> Work Tasks </Text>
     <View style={styles.items}>
       {
         taskItems.map((item, index) => {
@@ -125,7 +125,7 @@ const SchoolScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-    <Text style={styles.textStyle}>School tasks</Text>
+    <Text style={styles.textStyle}>School Tasks</Text>
     <View style={styles.items}>
       {
         taskItems.map((item, index) => {
@@ -168,7 +168,7 @@ const GroceriesScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-    <Text style={styles.textStyle}>Groceries tasks</Text>
+    <Text style={styles.textStyle}> Groceries List </Text>
     <View style={styles.items}>
       {
         taskItems.map((item, index) => {
